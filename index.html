@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="main-container">
+        <form id="register" onsubmit="sendRegister()">
+          <header id="header" class="text-center">
+            <h2>
+              ¡Bienvenido! <br />
+              Crea una cuenta
+            </h2>
+          </header>
+
+          <!-- Email input -->
+          <div class="form-outline">
+            <label class="form-label" for="telefono">Número telefónico</label>
+            <input type="number" id="telefono" class="form-control" required />
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline">
+            <label class="form-label" for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              class="form-control"
+              rows="10"
+              cols="12"
+              required
+            >
+            </textarea>
+          </div>
+
+          <!-- Submit button -->
+          <button id="registrar" type="submit">Enviar Mensaje</button>
+        </form>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

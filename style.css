@@ -1,0 +1,84 @@
+html {
+    font-family: Lato;
+  }
+  
+  #header {
+    color: #1642b0;
+  }
+  
+  .container {
+    max-width: 500px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .main-container {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .message {
+    opacity: 0.6;
+    font-size: smaller;
+    margin-top: 0;
+    max-width: 90%;
+  }
+  
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    width: 70%;
+    background-color: #1642b0;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #041d3e;
+  }
+  
+  button[type="submit"]:disabled {
+    background: #dddddd;
+    cursor:no-drop;
+  }
+  
+  #l-condicion {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: smaller;
+  }
+  
+  .red {
+    color:red;
+  }
+  
+  .green {
+    color:green;
+  }

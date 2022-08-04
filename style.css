@@ -3,7 +3,7 @@ html {
   }
   
   #header {
-    color: #1642b0;
+    color: #16b089;
   }
   
   .container {
@@ -36,8 +36,9 @@ html {
     max-width: 90%;
   }
   
-  input[type="number"],
-  textarea {
+  input[type="tel"],
+  textarea,
+  select {
     width: 100%;
     padding: 8px 20px;
     margin: 8px 0;
@@ -49,7 +50,7 @@ html {
   
   button[type="submit"] {
     width: 70%;
-    background-color: #1642b0;
+    background-color: #16b089;
     color: white;
     padding: 14px 20px;
     margin-top: 20px;
@@ -61,7 +62,7 @@ html {
   }
   
   button[type="submit"]:hover {
-    background-color: #041d3e;
+    background-color: #043e28;
   }
   
   button[type="submit"]:disabled {
@@ -74,11 +75,7 @@ html {
     opacity: 0.5;
     font-size: smaller;
   }
-  
-  .red {
-    color:red;
-  }
-  
-  .green {
-    color:green;
+
+  #code {
+    width: 9em;
   }

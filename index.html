@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WA shortcut</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -14,14 +14,45 @@
           <header id="header" class="text-center">
             <h2>
               ¡Bienvenido! <br />
-              Crea una cuenta
+              Envía un mensaje por WhatsApp
             </h2>
           </header>
 
           <!-- Email input -->
           <div class="form-outline">
-            <label class="form-label" for="telefono">Número telefónico</label>
-            <input type="number" id="telefono" class="form-control" required />
+            <label class="form-label" for="telefono">Número telefónico</label
+            ><br />
+            <select name="countryCode" id="code" class="form-control">
+              <option data-countryCode="MX" value="52">MX +52</option>
+              <option data-countryCode="CO" value="57">CO +57</option>
+              <optgroup label="Más países">
+                <option data-countryCode="AR" value="54">AR +54</option>
+                <option data-countryCode="BO" value="591">BO +591</option>
+                <option data-countryCode="BR" value="55">BR+55</option>
+                <option data-countryCode="CL" value="56">CL +56</option>
+                <option data-countryCode="CR" value="506">CR +506</option>
+                <option data-countryCode="CU" value="53">CU +53</option>
+                <option data-countryCode="EC" value="593">EC +593</option>
+                <option data-countryCode="SV" value="503">SV +503</option>
+                <option data-countryCode="GT" value="502">GT +502</option>
+                <option data-countryCode="HN" value="504">HN +504</option>
+                <option data-countryCode="JM" value="1876">JM +1876</option>
+                <option data-countryCode="NI" value="505">NI +505</option>
+                <option data-countryCode="PA" value="507">PA +507</option>
+                <option data-countryCode="PY" value="595">PY +595</option>
+                <option data-countryCode="PE" value="51">Peru +51</option>
+                <option data-countryCode="PR" value="1787">PR +1787</option>
+                <option data-countryCode="UY" value="598">UY +598</option>
+                <option data-countryCode="VE" value="58">VE +58</option>
+              </optgroup>
+            </select>
+            <input
+              type="tel"
+              id="telefono"
+              class="form-control"
+              style="width: 50%"
+              required
+            />
           </div>
 
           <!-- Password input -->

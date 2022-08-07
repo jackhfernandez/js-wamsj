@@ -10,7 +10,7 @@
   <body>
     <main class="container">
       <section class="main-container">
-        <form id="register" onsubmit="sendRegister()">
+        <form id="form">
           <header id="header" class="text-center">
             <h2>
               ¡Bienvenido! <br />
@@ -50,27 +50,29 @@
               type="tel"
               id="telefono"
               class="form-control"
+              size="10"
               style="width: 50%"
               required
             />
           </div>
 
-          <!-- Password input -->
+          <!-- Message input -->
           <div class="form-outline">
             <label class="form-label" for="mensaje">Mensaje</label>
             <textarea
               id="mensaje"
+              type="text"
               name="mensaje"
               class="form-control"
+              value="nothing"
               rows="10"
               cols="12"
               required
-            >
-            </textarea>
+            ></textarea>
           </div>
 
           <!-- Submit button -->
-          <button id="registrar" type="submit">Enviar Mensaje</button>
+          <button id="registrar" type="submit">¡Enviar por WA!</button>
         </form>
       </section>
     </main>

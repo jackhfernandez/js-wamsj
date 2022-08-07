@@ -69,13 +69,11 @@ html {
     background: #dddddd;
     cursor:no-drop;
   }
-  
-  #l-condicion {
-    text-transform: uppercase;
-    opacity: 0.5;
-    font-size: smaller;
-  }
 
   #code {
     width: 9em;
+  }
+
+  #telefono {
+    width: 50%;
   }

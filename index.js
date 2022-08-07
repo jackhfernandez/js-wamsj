@@ -35,5 +35,3 @@ function onChange() {
   button.disabled = false;
   return;
 }
-
-//"https://api.whatsapp.com/send?phone=5215514434521&text=%F0%9F%98%84%20Hola%20hello%0AEspero%20est%C3%A9s%20bien");
